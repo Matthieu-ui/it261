@@ -22,7 +22,7 @@
                 <h4>PHP Exercise Code list </h4>
                 <div class="assignments">
 
-                    <?php include "assignments.php" ?>
+<?php include"assignments.php"?>
 
                 </div>
             </div>
@@ -53,3 +53,5 @@
                 <li>Frameworks</li>
             </ul>
         </div>
+
+ 
