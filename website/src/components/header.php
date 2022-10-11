@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./src/styles/skeleton.css">
     <link rel="stylesheet" href="./src/styles/normalize.css">
     <title>Matthieu Felker | PHP Portal</title>
+    <script src="../../scripts/darkMode.js" type="text/javascript"></script>
 </head>
 
 <div class="container">
