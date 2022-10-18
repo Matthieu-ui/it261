@@ -14,7 +14,7 @@
     </footer>
 </div>
 </div>
-
+</div>
 
 <script>
     document.getElementById("html-checker").setAttribute("href", "https://validator.w3.org/nu/?doc=" +

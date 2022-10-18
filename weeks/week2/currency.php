@@ -26,11 +26,6 @@ $friendly_total = number_format($total, 2);
 
 ?>
 
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Currency</title>
 <style>
     table {
         width: 400px;
@@ -44,9 +39,9 @@ $friendly_total = number_format($total, 2);
         text-align: left;
     }
 </style>
-</head>
 
-<body>
+
+
     <table>
         <tr>
             <th>Rubles</th>
@@ -73,5 +68,3 @@ $friendly_total = number_format($total, 2);
             <td><strong><?php echo '$'.$friendly_total.''; ?></strong></td>
         <tr>
     </table>
-</body>
-</html>

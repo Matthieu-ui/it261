@@ -61,8 +61,13 @@
 */
 .assignmentpics{
   width: 100%;
+  margin-bottom: 3em;
 }
-
+.assignments {
+padding: 2em;
+border: 1px solid black;
+margin-bottom: 3em;
+}
 .dark-moon{
   width: 38px;
  vertical-align: middle;
@@ -89,11 +94,10 @@ a{
 }
 
 .Avi{
-width: 100%;
+  width: 100%;
 border-radius: 50%;
 background-color: #0FA0CE;
 box-shadow: 6px 6px 62px #545d66, -6px -6px 62px #a8aa9c;
-margin-bottom: 2em;
 }
 
 
