@@ -13,7 +13,7 @@
     <div class="container">
         <div class="row">
             <div class="one-half column">
-                <h1 style="text-align: center;">My celcius / fahrenheit table</h1>
+                <h1 style="text-align: center;">Celcius / Fahrenheit table</h1>
                 <table style="width: 100%;">
                     <tr>
 
@@ -25,31 +25,23 @@
                     <?php
                     // for init counter; test counter; increment counter
                     // far = ($cel * 9/5) + 32
-                    // remove decimals
+                    // remove decimals 
                for($cel = 4; $cel <= 100; $cel++) {
                      $far = ($cel * 9/5) + 32;
                      $far = round($far, 0);
                      echo '<tr>';
-                     echo '<td>' . $cel . '</td>';
-                     echo '<td>' . $far . '</td>';
+                     echo '<td>' . $cel .'&#176; </td>';
+                     echo '<td>' . $far .'&#176;</td>';
                      echo '</tr>';
                 }
                       ?>
                  </table>
-               )
-                    
-
-                    echo '<tr>';
-                    echo '<td> '. $cel .'&#176; </td>';
-                    echo '<td> '. $far .'&#176; </td>';
-                    echo '</tr>';
-                    }
-                    ?>
+        
 
                 </table>
             </div>
             <div class="one-half column">
-                <h1 style="text-align: center;">My Kilometer / Miles table</h1>
+                <h1 style="text-align: center;">Kilometer / Miles table</h1>
                 <table style="width: 100%;">
                     <tr>
 
