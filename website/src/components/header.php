@@ -27,3 +27,32 @@
         </div>
     </div>
 </div>
+
+<?php 
+define('THIS_PAGE', basename($_SERVER['PHP_SELF']));
+switch('THIS_PAGE') {
+    case 'index.php':
+        $title = 'Home Page';
+        $body = 'home';
+        break;
+    case 'about.php':
+        $title = 'About Page';
+        $body = 'about';
+        break;
+    case 'daily.php':
+        $title = 'Daily Page';
+        $body = 'daily';
+        break;
+    case 'contact.php':
+        $title = 'Contact Page';
+        $body = 'contact';
+        break;
+    case 'gallery.php':
+        $title = 'Gallery Page';
+        $body = 'gallery';
+        break;
+    default:
+        $title = THIS_PAGE;
+}
+
+?>
