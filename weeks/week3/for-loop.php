@@ -25,8 +25,18 @@
                     <?php
                     // for init counter; test counter; increment counter
                     // far = ($cel * 9/5) + 32
-                    for($cel = 0; $cel <= 100; $cel += 5) {
-                        $far = ($cel * 9 / 5) + 32;
+                    // remove decimals
+               for($cel = 4; $cel <= 100; $cel++) {
+                     $far = ($cel * 9/5) + 32;
+                     $far = round($far, 0);
+                     echo '<tr>';
+                     echo '<td>' . $cel . '</td>';
+                     echo '<td>' . $far . '</td>';
+                     echo '</tr>';
+                }
+                      ?>
+                 </table>
+               )
                     
 
                     echo '<tr>';
@@ -46,8 +56,9 @@
                         <th>Kilometer</th>
                         <th>Miles</th>
                         <?php 
-                        for($km = 0; $km <= 100; $km += 5){
+                        for($km = 1; $km <= 100; $km += 5){
                             $miles = $km * 0.621371;
+                            $miles = round($miles, 2);
                             echo '<tr>';
                             echo '<td> '. $km .' km </td>';
                             echo '<td> '. $miles .' miles </td>';
