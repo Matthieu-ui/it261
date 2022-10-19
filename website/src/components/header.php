@@ -29,6 +29,15 @@
 </div>
 
 <?php 
+
+$nav = [
+    'index.php' => 'Home',
+    'about.php' => 'About',
+    'daily.php' => 'Daily',
+    'contact.php' => 'Contact',
+    'gallery.php' => 'Gallery'
+];
+
 define('THIS_PAGE', basename($_SERVER['PHP_SELF']));
 switch('THIS_PAGE') {
     case 'index.php':
@@ -53,6 +62,19 @@ switch('THIS_PAGE') {
         break;
     default:
         $title = THIS_PAGE;
+};
+
+
+
+foreach($nav as $key => $value) {
+    if(THIS_PAGE == $key) {
+        $nav[$key] = '<a href="' . $key . '" class="active">' . $value . '</a>';
+    } else {
+        $nav[$key] = '<a href="' . $key . '">' . $value . '</a>';
+    }
 }
+
+
+
 
 ?>
