@@ -22,7 +22,7 @@
 
             foreach ($nav as $key => $value) {
                 if ($value == THIS_PAGE) {
-                    echo '<li><a class="active" style="color: purple"; href="' . $value . '">' . $key . '</a></li>';
+                    echo '<li><a class="active" style="color: purple" href="' . $value . '">' . $key . '</a></li>';
                 } else {
                     echo '<li><a href="' . $value . '">' . $key . '</a></li>';
                 }

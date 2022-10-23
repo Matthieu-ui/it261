@@ -44,7 +44,7 @@ switch ($today) {
         break;
     case 'Thursday':
         $comicTitle = 'World War III';
-        
+
         $color = 'green';
         $content = 'Williamsburg pork belly sustainable, flannel helvetica DSA butcher jianbing ethical 90\'s vibecession bitters wolf. Echo park yr pug, deep v marfa coloring book flannel trust fund VHS copper mug single-origin coffee. Before they sold out edison bulb pour-over gastropub vaporware taxidermy, la croix vape tousled snackwave affogato PBR&B subway tile mukbang. Ramps franzen church-key, fashion axe hell of small batch intelligentsia schlitz flexitarian live-edge migas. Fit fixie austin polaroid locavore mukbang hella 90\'s hell of food truck.';
         $pic = './src/assets/images/ww3.jpg';
@@ -105,43 +105,44 @@ switch ($today) {
         <div class="full-column">
             <?php include './src/components/nav.php' ?>
         </div>
-        
+
     </div>
 </div>
 
 
 
 <div class="container" style="padding: 5em; <?php echo $background ?>">
-
+</div>
 
 <div class="row">
     <div class="full-column">
         <h1 style="color: <?php echo $color ?>; text-align: center; font-size: 3em; font-family: 'Bangers', cursive; text-shadow: 2px 2px 4px #000000;">Daily Comics of Public Domain</h1>
-
-    <div class="row">
-        <div class="one-half column">
-            <h2><?php echo $comicTitle ?></h2>
-            <?php echo $content ?>
-        </div>
-
-        <div class="one-half column">
-            <?php echo '<img src="' . $pic . '" alt="' . $alt . '" style="' . $size . '">' ?>
-        </div>
     </div>
-    <div class="row">
-        <div class="dailyMenu">
-            <a href="daily.php?today=Monday" >Monday</a>
-            <a href="daily.php?today=Tuesday" ">Tuesday</a>
-            <a href="daily.php?today=Wednesday" >Wednesday</a>
-            <a href="daily.php?today=Thursday" >Thursday</a>
-            <a href="daily.php?today=Friday" >Friday</a>
-            <a href="daily.php?today=Saturday" >Saturday</a>
-            <a href="daily.php?today=Sunday" >Sunday</a>
+</div>
+<div class="row">
+    <div class="one-half column">
+        <h2><?php echo $comicTitle ?></h2>
+        <?php echo $content ?>
+    </div>
 
-        </div>
+    <div class="one-half column">
+        <?php echo '<img src="' . $pic . '" alt="' . $alt . '" style="' . $size . '">' ?>
+    </div>
+</div>
+<div class="row">
+    <div class="dailyMenu">
+        <a href="daily.php?today=Monday">Monday</a>
+        <a href="daily.php?today=Tuesday">Tuesday</a>
+        <a href="daily.php?today=Wednesday">Wednesday</a>
+        <a href="daily.php?today=Thursday">Thursday</a>
+        <a href="daily.php?today=Friday">Friday</a>
+        <a href="daily.php?today=Saturday">Saturday</a>
+        <a href="daily.php?today=Sunday">Sunday</a>
+
     </div>
 </div>
 
 
 
-    <?php include './src/components/footer.php' ?>
+
+<?php include './src/components/footer.php' ?>

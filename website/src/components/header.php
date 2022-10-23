@@ -82,7 +82,7 @@ foreach($nav as $key => $value) {
     <link rel="stylesheet" href="./src/styles/skeleton.css">
     <link rel="stylesheet" href="./src/styles/normalize.css">
     <title>Matthieu Felker | <?php echo $title; ?></title>
-    <script src="../../scripts/darkMode.js"></script>
+
 </head>
 
 <body style="<?php echo $background ?>">
