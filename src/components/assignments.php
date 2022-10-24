@@ -26,6 +26,7 @@ Week 4<ol>
     <li><a href="./weeks/week4/form-get.php">form-get.php</a></li>
     <li><a href="./weeks/week4/arithmetic-form.php">arithmetic-form.php</a></li>
     <li><a href="./weeks/week4/celsius.php">celsius.php</a></li>
+    <li><a href="./weeks/week4/adder.php">adder.php</a></li>
 
 
 </ol>
