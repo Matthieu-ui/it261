@@ -18,6 +18,38 @@ form{
     box-shadow:  5px 5px 10px #d9d9d9,
                  -5px -5px 10px #e7e7e7;
 }
+.error{
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+button{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    vertical-align: middle;
+    box-shadow:  5px 5px 10px #d9d9d9,
+                 -5px -5px 10px #e7e7e7;
+}
+button:active{
+    box-shadow: inset 2px 2px 2px #d9d9d9,
+                inset -2px -2px 2px #e7e7e7;
+}
+select{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    vertical-align: middle;
+    box-shadow:  5px 5px 10px #d9d9d9,
+    -5px -5px 10px #e7e7e7;
+}
+/* select hover active */
+select:hover{
+
+    box-shadow: inset 2px 2px 2px #d9d9d9,
+    inset -2px -2px 2px #e7e7e7;
+}
 
 form .form-group h1{
     text-align: center;
@@ -52,9 +84,21 @@ form .form-group input{
 }
 /* input focus */
 form .form-group input:focus{
-    box-shadow: inset 5px 5px 10px #d9d9d9,
-    inset -5px -5px 10px #e7e7e7;
+    box-shadow: inset 2px 2px 2px #d9d9d9,
+    inset -2px -2px 2px #e7e7e7;
 }
+
+/* input type submit*/
+input[type="submit"]{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow:  5px 5px 10px #d9d9d9,
+    -5px -5px 10px #e7e7e7;
+
+}
+
+
 /* radio color */
 
 /* radio style */
