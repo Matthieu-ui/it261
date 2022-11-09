@@ -51,6 +51,8 @@ Efficiency -->
         </fieldset>
 
     </form>
+<!-- php include footer -->
+<?php include '../components/footer.php'; ?>
 </body>
 
 </html>

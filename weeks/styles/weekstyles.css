@@ -7,6 +7,13 @@
 body {
     background: #e0e0e0;
 }
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    color: rgb(32, 19, 221);
+}
 
 form {
     width: 100%;
@@ -206,4 +213,16 @@ box container animation */
         transform: translateY(0);
 
     }
+}
+
+/* footer*/
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 10px #d9d9d9,
+        inset -5px -5px 10px #e7e7e7;
 }

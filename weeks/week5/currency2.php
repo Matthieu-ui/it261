@@ -51,7 +51,7 @@
 <input type="submit" value="Convert">
 <!-- reset -->
 
-<button><a href="currency2.php">reset</a></button>
+<button type="reset">Reset</button>
         </fieldset>
     
         <?php 
@@ -97,5 +97,6 @@
         
         ?>
     </form>
+    <?php include '../components/footer.php'; ?>
 </body>
 </html>

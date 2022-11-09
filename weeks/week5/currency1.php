@@ -34,9 +34,10 @@
 </ul>
 <!-- submit -->
 <input type="submit" value="Convert">
-<!-- reset -->
+<!-- reset refreshes page -->
 
-<button><a href="currency1.php">reset</a></button>
+<button type="reset">reset</button>
+
         </fieldset>
     
         <?php 
@@ -65,5 +66,6 @@
         
         ?>
     </form>
+    <?php include '../components/footer.php'; ?>
 </body>
 </html>
