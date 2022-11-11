@@ -10,8 +10,8 @@
             
             <?php include'./src/components/main.php'?>
 
-        </div>
-    </div>
+       
+   
 
     <?php include'./src/components/footer.php'?>
 

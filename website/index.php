@@ -1,6 +1,7 @@
 <?php 
-include 'config.php';
-include './src/components/header.php' ?>
+
+include './src/components/header.php' 
+?>
 
 
 
@@ -9,10 +10,11 @@ include './src/components/header.php' ?>
         <div class="full-column">
             <?php include './src/components/nav.php' ?>
         </div>
-
+    </div>
+</div>
         <?php include './src/components/main.php' ?>
 
-    </div>
+
 </div>
 
 <?php include './src/components/footer.php' ?>
