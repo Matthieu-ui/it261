@@ -38,6 +38,16 @@ Week 5<ol>
     <li><a href="./weeks/week5/null.php">null.php</a></li>
     <li><a href="./weeks/week5/calculatingForm.php">calculatingForm.php</a></li>
 
+</ol>
 
-
+week 6<ol>
+    <li>
+        <a href="./weeks/week6/form.php">form.php</a>
+    </li>
+    <li>
+        <a href="./weeks/week6/form2.php">form2.php</a>
+    </li>
+    <li>
+        <a href="./weeks/week6/functions.php">functions.php</a>
+    </li>
 </ol>

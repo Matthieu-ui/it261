@@ -10,20 +10,20 @@
     <title>Matthieu Felker | PHP Portal</title>
     <script src="../../scripts/darkMode.js" type="text/javascript"></script>
 </head>
+
 <body>
 
-<div class="container">
-    <div class="row">
-        <div class="full column">
-            <div class="header">
-                <pre>
+    <div class="container">
+        <div class="row">
+            <div class="full column">
+                <div class="header">
+                    <pre>
 ╔═╗╦ ╦╔═╗  ╔═╗╔═╗╦═╗╔╦╗╔═╗╦  
 ╠═╝╠═╣╠═╝  ╠═╝║ ║╠╦╝ ║ ╠═╣║  
 ╩  ╩ ╩╩    ╩  ╚═╝╩╚═ ╩ ╩ ╩╩═╝
 <small>IT261</small>
             </pre>
-            </div>
+                </div>
 
+            </div>
         </div>
-    </div>
-</div>

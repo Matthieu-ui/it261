@@ -2,16 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
     background: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+
+
 }
-a{
+
+a {
     text-decoration: none;
     color: #333;
 }
-a:hover{
+
+a:hover {
     color: rgb(32, 19, 221);
 }
 
@@ -28,16 +36,11 @@ form {
 }
 
 .error {
+    content: "⚠";
+    margin-right: 5px;
     color: red;
     font-size: 12px;
     margin-top: 5px;
-}
-
-
-.error::before {
-    content: "⚠";
-    margin-right: 5px;
-
 }
 
 
@@ -121,8 +124,16 @@ input[type="submit"] {
 
 }
 
+/* check box */
+form .form-group input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+    border: none;
+    box-shadow: none;
 
-/* radio color */
+}
 
 /* radio style */
 form .form-group input[type="radio"] {
@@ -177,19 +188,17 @@ a {
     color: #333;
 }
 
+
+
 /* 
 box container animation */
 
-
 .box {
     position: relative;
-    z-index: 1;
-
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     animation: box 1s ease-in-out;
@@ -215,14 +224,15 @@ box container animation */
     }
 }
 
-/* footer*/
+/* footer to bottom*/
 footer {
     position: absolute;
-    bottom: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
     width: 100%;
-    padding: 10px;
+    padding: 5em;
     text-align: center;
-    background: #e0e0e0;
-    box-shadow: inset 5px 5px 10px #d9d9d9,
-        inset -5px -5px 10px #e7e7e7;
+
+
 }
