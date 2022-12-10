@@ -67,3 +67,14 @@ week 7<ol>
     </li>
 
 </ol>
+
+
+week 8<ol>
+<li>
+    <a href="./weeks/week8/people-view.php">People-view.php</a>
+</li>
+<li>
+    <a href="./weeks/week8/people.php">People.php</a>
+</li>
+
+</ol>

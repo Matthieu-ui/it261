@@ -59,6 +59,9 @@
 - Clearing
 - Media Queries
 */
+
+
+
 .assignmentpics{
   width: 100%;
 }
@@ -344,6 +347,66 @@ input[type="button"].button-primary:focus {
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+/* comments */
+
+#comments{
+  background-color: #F1F1F1;
+  padding: 1em;
+  border-radius: 1em;
+
+  width: 100%;
+  max-width: 324px;
+}
+
+/* send form button */
+
+#send-form{
+  border-radius: 1em;
+  margin: 1em auto;
+
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+
+}
+
+/* contact form centered */
+
+.contact-form{
+  width: 100%;
+  max-width: 350px;
+  background-color: #ece9e9;
+  margin: 0 auto;
+
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+ 
+}
+
+/* privacy check box size clicked*/
+
+
+
+#privacy{
+
+  text-align: center;
+
+}
+input[type="checkbox"]{
+  width: 1.5em;
+  height: 1.5em;
+  display: inline;
+  /* middle align */
+
+  vertical-align: middle;
+}
+
+
+
 input[type="email"],
 input[type="number"],
 input[type="search"],

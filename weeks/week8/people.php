@@ -5,7 +5,7 @@ include 'includes/header.php';
 
 <div id="wrapper">
     <main>
-
+<h1>Welcome to our People Database Class Exercise!</h1>
         <?php
         $sql = "SELECT * FROM people";
 
@@ -19,14 +19,14 @@ include 'includes/header.php';
 
             while ($row = mysqli_fetch_assoc($result)) {
 
-                echo '<h2>Information about: ' . $row['FirstName'] . '</h2>
+                echo '<h2>Information about: ' . $row['first_name'] . '</h2>
 <ul>
-<li><b>First Name:</b> ' . $row['FirstName'] . '</li>
-<li><b>Last Name:</b> ' . $row['LastName'] . '</li>
-<li><b>Email:</b> ' . $row['Email'] . '</li>
+<li><b>First Name:</b> ' . $row['first_name'] . '</li>
+<li><b>Last Name:</b> ' . $row['last_name'] . '</li>
+<li><b>Email:</b> ' . $row['email'] . '</li>
 </ul>
 
-<p>For more information about ' . $row['FirstName'] . ', <a href="people-view.php?id=' . $row['PeopleID'] . '">click here</a></p>
+<p>For more information about ' . $row['first_name'] . ', <a href="people-view.php?id=' . $row['people_id'] . '">click here</a></p>
 
 ';
             } // close while    
@@ -55,5 +55,3 @@ include('./includes/footer.php');
 
 
 
-
-?>
