@@ -5,7 +5,7 @@ include 'includes/header.php';
 
 <div id="wrapper">
     <main>
-<h1>Welcome to our People Database Class Exercise!</h1>
+<h1>Welcome to our People Database Class xercise</h1>
         <?php
         $sql = "SELECT * FROM people";
 
