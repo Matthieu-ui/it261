@@ -27,14 +27,14 @@ if (mysqli_num_rows($result) > 0) { //show records
         $Email = stripslashes($row['email']);
         $birthdate = stripslashes($row['birthdate']);
         $occupation = stripslashes($row['occupation']);
- 
+
         $details = stripslashes($row['details']);
         $feedback = '';
     } // close while
 
 
 
-} else { 
+} else {
 
     $feedback = 'There was a problem, please try again later.';
 }
@@ -62,16 +62,16 @@ include './includes/header.php'; ?>
 
     </main>
     <aside>
-       <h3>This is my aside!</h3>
-       <figure>
-       <img src="./images/people<? echo $id; ?>.jpg" alt="<? echo $FirstName; ?>">
-       <figcaption><? echo ''.$FirstName.''.$LastName.''.$occupation.''; ?></figcaption>
-       </figure>
+        <h3>This is my aside!</h3>
+        <figure>
+            <img src="./images/people<? echo $id; ?>.jpg" alt="<? echo $FirstName; ?>">
+            <figcaption><? echo '' . $FirstName . '' . $LastName . '' . $occupation . ''; ?></figcaption>
+        </figure>
     </aside>
 
-<?php @mysqli_free_result($result); //free resources
+    <?php @mysqli_free_result($result); //free resources
 
-@mysqli_close($iConn); //close connection
+    @mysqli_close($iConn); //close connection
 
-?>
+    ?>
 </div>
