@@ -62,6 +62,12 @@
 
 
 
+
+.mineral_img{
+  width: 100%;
+  max-width: 250px;
+}
+
 .assignmentpics{
   width: 100%;
 }

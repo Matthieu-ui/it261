@@ -5,21 +5,6 @@ define('DEBUG', 'TRUE');  // We want to see our errors
 
 include('credentials.php');
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
 
 function myError($myFile, $myLine, $errorMsg)
 {
