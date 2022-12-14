@@ -1,6 +1,6 @@
 <?php 
 include('server.php');
-include('header.php');
+include('./include/header.php');
 ?>
 
 <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="post">
@@ -30,5 +30,5 @@ include('header.php');
 
 </form>
 
-<?php include('footer.php');?>
+<?php include('./include/footer.php');?>
 
