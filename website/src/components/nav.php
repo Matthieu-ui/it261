@@ -17,7 +17,8 @@
                 'Daily' => 'daily.php',
                 'Database' => 'database.php',
                 'Contact' => 'contact.php',
-                'Gallery' => 'gallery.php'
+                'Gallery' => 'gallery.php',
+                'final' => '../website/final/index.php'
             );
 
             foreach ($nav as $key => $value) {
